@@ -1,12 +1,10 @@
 body {
     background-color: #191919;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 300;
 }
 .fredoka {
   font-family: "Fredoka", sans-serif;
   font-weight: 300;
   font-style: normal;
-}
-body {
-  font-family: "Fredoka", sans-serif;
-  font-weight: 300;
 }
