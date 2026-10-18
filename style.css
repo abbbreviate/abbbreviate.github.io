@@ -16,18 +16,11 @@ hr {
   font-style: normal;
 }
 
-p, h3, ul{
-    font-family: "Fredoka", sans-serif;
-    font-weight: 300;
-}
-
-h1 {
-    font-family: "Fredoka", sans-serif;
-    font-weight: 550;
-    text-align: center;
-}
-
-h2 {
-    font-family: "Fredoka", sans-serif;
-    font-weight: 300;
+.fredoka-yes {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 480;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
