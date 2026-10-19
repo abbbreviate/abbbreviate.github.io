@@ -1,6 +1,7 @@
 body {
-    background-color: #191919;
-    color: white;
+    background-color: white;
+    color: #191919;
+    font-family: "Montserrat", sans-serif;
 }
 
 hr {
@@ -14,6 +15,7 @@ hr {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  text-align: center;
 }
 
 .fredoka-yes {
@@ -21,6 +23,30 @@ hr {
   font-optical-sizing: auto;
   font-weight: 480;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.logo {
+    position: sticky;
+    top: 20px;
+    background-color: #191919;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.catimages {
+    text-align: right;
+    font-size: 40px;
+}
+
+header a, header a:visited {
+    color: white;
+    text-decoration: none;
 }
