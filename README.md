@@ -1,7 +1,7 @@
 yes this is my readme thanks \
 ***bye***\
-\
-### hi\
+
+### hi
 how are you\
 yes \
 thanks\
