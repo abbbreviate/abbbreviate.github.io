@@ -24,29 +24,46 @@ hr {
   font-weight: 480;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.logo {
-    position: sticky;
-    top: 20px;
-    background-color: #191919;
-    color: white;
-    border-radius: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
+.jetbrains-mono-yes {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.catimages {
+.topthing {
+    position: sticky;
+    top: 10px;
+    background-color: #191919;
+    color: white;
+    border-radius: 22px;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
+.catpictures {
     text-align: right;
-    font-size: 40px;
+    font-size: 12px;
+    margin-right: 10px;
 }
 
 header a, header a:visited {
     color: white;
     text-decoration: none;
+}
+
+.logo {
+    margin-left: 10px;
 }
